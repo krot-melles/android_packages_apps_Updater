@@ -32,11 +32,8 @@
                 android:paddingEnd="16dp"
                 android:paddingStart="16dp"
                 app:layout_collapseMode="parallax">
-				
-    <com.android.settingslib.widget.LayoutPreference
-        android:key="ct_logo"
-        android:layout="@layout/ct_logo"
-        android:selectable="false"/>
+
+
 
                 <TextView
                     android:id="@+id/header_build_version"
