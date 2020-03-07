@@ -122,6 +122,10 @@ public class UpdatesActivity extends UpdatesListActivity {
 
         updateLastCheckedString();
 
+        TextView headerMaintainer = (TextView) findViewById(R.id.header_maintainer);
+        headerMaintainer.setText(getString(R.string.header_maintainer_text,
+                BuildInfoUtils.getBuildMaintainer()));
+				
         TextView headerBuildVersion = (TextView) findViewById(R.id.header_build_version);
         headerBuildVersion.setText(
                 getString(R.string.header_android_version, Build.VERSION.RELEASE));

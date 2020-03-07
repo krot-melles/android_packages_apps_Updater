@@ -39,9 +39,17 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
                     android:paddingBottom="16dp"
-                    android:textColor="?android:attr/textColorPrimary"
+                    android:textColor="?android:attr/colorAccent"
                     android:textSize="56sp" />
-
+					
+                <TextView
+                    android:id="@+id/header_maintainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="?android:attr/colorAccent"
+                    android:textSize="12sp" />
+					
                 <TextView
                     android:id="@+id/header_build_version"
                     android:layout_width="wrap_content"
