@@ -211,7 +211,7 @@ public class UpdatesActivity extends UpdatesListActivity {
                         Uri.parse(Utils.getChangelogURL(this)));
                 startActivity(openUrl);
                 return true;
-
+            }
             case R.id.menu_donat: {
                 Intent openUrl = new Intent(Intent.ACTION_VIEW,
                         Uri.parse(Utils.getDonatURL(this)));
