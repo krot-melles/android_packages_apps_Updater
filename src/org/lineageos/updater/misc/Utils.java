@@ -176,6 +176,10 @@ public class Utils {
         return context.getString(R.string.menu_changelog_url, device);
     }
 
+    public static String getDonatURL(Context context) {
+        return context.getString(R.string.menu_donat_url);
+    }
+
     public static void triggerUpdate(Context context, String downloadId) {
         final Intent intent = new Intent(context, UpdaterService.class);
         intent.setAction(UpdaterService.ACTION_INSTALL_UPDATE);

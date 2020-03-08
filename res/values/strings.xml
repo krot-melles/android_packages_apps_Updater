@@ -33,6 +33,7 @@
           {incr} - Incremental version
     -->
     <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/krot-melles/device/master/{device}/{device}.json</string>
+	<string name="menu_donat_url" translatable="false">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XK5HEBYJ4TAJ8&source=url</string>
 
     <string name="verification_failed_notification">Verification failed</string>
     <string name="verifying_download_notification">Verifying update</string>
@@ -76,6 +77,7 @@
     <string name="menu_export_update">Export update</string>
     <string name="menu_show_changelog">Show changelog</string>
     <string name="menu_changelog_url" translatable="false">https://raw.githubusercontent.com/krot-melles/device/master/<xliff:g id="device_name">%1$s</xliff:g>/changes</string>
+    <string name="menu_donat">Donat Maintainer</string>
     <string name="menu_ab_perf_mode">Prioritize update process</string>
 
     <string name="snack_updates_found">New updates found</string>
