@@ -43,6 +43,7 @@
                     android:textSize="56sp" />
 					
                 <TextView
+				    android:icon="@drawable/ic_maintainers_icon"
                     android:id="@+id/header_maintainer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -57,6 +58,11 @@
                     android:layout_below="@id/header_maintainer"					
                     android:textColor="?android:attr/textColorPrimary"
                     android:textSize="12sp" />
+					
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/black" />	
 					
                 <TextView
                     android:id="@+id/header_build_version"
