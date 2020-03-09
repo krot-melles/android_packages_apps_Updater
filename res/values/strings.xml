@@ -77,8 +77,8 @@
     <string name="menu_show_changelog">Show changelog</string>
     <string name="menu_changelog_url" translatable="false">https://raw.githubusercontent.com/krot-melles/device/master/<xliff:g id="device_name">%1$s</xliff:g>/changes</string>
 	<string name="menu_donat">Donation</string>
-	<string name="menu_changelog_url" translatable="false">https://raw.githubusercontent.com/krot-melles/device/master/<xliff:g id="device_name">%1$s</xliff:g>/changes</string>
-	<string name="menu_telegram">Donation</string>
+	<string name="menu_donat_url" translatable="false">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=XK5HEBYJ4TAJ8&amp;source=url</string>
+	<string name="menu_telegram">Telegram</string>
 	<string name="menu_telegram_url" translatable="false">https://t.me/craft_rom</string>
     <string name="menu_ab_perf_mode">Prioritize update process</string>
 
