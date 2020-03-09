@@ -37,7 +37,7 @@
                     android:id="@+id/header_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
+                    android:fontFamily="sans-serif-bold"
                     android:paddingBottom="16dp"
                     android:textColor="?android:attr/colorAccent"
                     android:textSize="56sp" />
@@ -46,16 +46,23 @@
                     android:id="@+id/header_maintainer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
-                    android:layout_below="@id/header_maintainer"					
+                    android:layout_below="@id/header_title"					
                     android:textColor="?android:attr/colorAccent"
+                    android:textSize="12sp" />
+					
+                <TextView
+                    android:id="@+id/header_device"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/header_maintainer"					
+                    android:textColor="?android:attr/textColorPrimary"
                     android:textSize="12sp" />
 					
                 <TextView
                     android:id="@+id/header_build_version"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/header_title"
+                    android:layout_below="@id/header_device"
                     android:textColor="?android:attr/textColorPrimary"
                     android:textSize="12sp" />
 
