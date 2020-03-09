@@ -37,6 +37,7 @@
     <string name="dialog_prepare_zip_message">Підготовка оновлення</string>
     <string name="reboot">Перезавантаження</string>
     <string name="menu_refresh">Оновити</string>
+	<string name="menu_donat">Пожертвование</string>
     <string name="menu_auto_updates_check">Автоматична перевірка оновлень</string>
     <string name="menu_auto_delete_updates">Видалити файли оновлення після інсталяції</string>
     <string name="menu_delete_update">Видалити</string>
@@ -50,6 +51,7 @@
     <string name="snack_download_verified">Завантаження завершено.</string>
     <string name="snack_update_not_installable">Це оновлення не можна інсталювати на поточну збірку.</string>
     <string name="header_title_text">CRAFT TEAM</string>
+	<string name="header_maintainer_text">Сопровождающий %1$s</string>
     <string name="header_android_version">Android <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
     <string name="header_last_updates_check">Остання перевірка: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
     <string name="list_build_version">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>

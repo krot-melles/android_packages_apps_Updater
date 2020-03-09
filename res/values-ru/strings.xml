@@ -43,6 +43,7 @@
     <string name="reboot">Перезапуск</string>
     <string name="menu_refresh">Обновить</string>
     <string name="menu_preferences">Настройки</string>
+	<string name="menu_donat">Пожертвування</string>
     <string name="menu_auto_updates_check">Автоматическая проверка обновлений</string>
     <string name="menu_auto_updates_check_interval_daily">Раз в день</string>
     <string name="menu_auto_updates_check_interval_weekly">Раз в неделю</string>
@@ -62,6 +63,7 @@
     <string name="snack_download_verified">Загрузка завершена.</string>
     <string name="snack_update_not_installable">Это обновление не может быть установлено поверх текущей сборки.</string>
     <string name="header_title_text">CRAFT TEAM</string>
+	<string name="header_maintainer_text">Підтримка %1$s</string>
     <string name="header_android_version">Android <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
     <string name="header_last_updates_check">Поиск обновлений выполнялся <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> в <xliff:g id="time" example="01:23">%2$s</xliff:g></string>
     <string name="list_build_version">LineageOS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
