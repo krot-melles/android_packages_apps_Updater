@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item
+        android:id="@+id/menu_donat"
+		android:icon="@drawable/ic_donate_icon.xml"		
+        android:title="@string/menu_donat"
+        app:showAsAction="never" />
     <item
         android:id="@+id/menu_refresh"
         android:icon="@drawable/ic_menu_refresh"
@@ -13,9 +18,5 @@
     <item
         android:id="@+id/menu_show_changelog"
         android:title="@string/menu_show_changelog"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/menu_donat"
-        android:title="@string/menu_donat"
         app:showAsAction="never" />
 </menu>
