@@ -175,7 +175,11 @@ public class Utils {
                 SystemProperties.get(Constants.PROP_DEVICE));
         return context.getString(R.string.menu_changelog_url, device);
     }
-
+	
+    public static String getTelegramURL(Context context) {
+        return context.getString(R.string.menu_telegram_url);
+    }
+	
     public static String getDonatURL(Context context) {
         return context.getString(R.string.menu_donat_url);
     }

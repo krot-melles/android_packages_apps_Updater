@@ -202,6 +202,18 @@ public class UpdatesActivity extends UpdatesListActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
+            case R.id.menu_telegram: {
+                Intent openUrl = new Intent(Intent.ACTION_VIEW,
+                        Uri.parse(Utils.getTelegramURL(this)));
+                startActivity(openUrl);
+                return true;				
+            }			
+            case R.id.menu_donat: {
+                Intent openUrl = new Intent(Intent.ACTION_VIEW,
+                        Uri.parse(Utils.getDonatURL(this)));
+                startActivity(openUrl);
+                return true;				
+            }			
             case R.id.menu_refresh: {
                 downloadUpdatesList(true);
                 return true;
@@ -215,12 +227,6 @@ public class UpdatesActivity extends UpdatesListActivity {
                         Uri.parse(Utils.getChangelogURL(this)));
                 startActivity(openUrl);
                 return true;
-            }
-            case R.id.menu_donat: {
-                Intent openUrl = new Intent(Intent.ACTION_VIEW,
-                        Uri.parse(Utils.getDonatURL(this)));
-                startActivity(openUrl);
-                return true;				
             }
         }
         return super.onOptionsItemSelected(item);
