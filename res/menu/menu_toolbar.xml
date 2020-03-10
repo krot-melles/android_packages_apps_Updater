@@ -5,12 +5,12 @@
         android:id="@+id/menu_telegram"
 		android:icon="@drawable/ic_telegram_icon"		
         android:title="@string/menu_telegram"
-        app:showAsAction="never" />	
+        app:showAsAction="ifRoom" />	
 	<item
         android:id="@+id/menu_donat"
 		android:icon="@drawable/ic_donate_icon"		
         android:title="@string/menu_donat"
-        app:showAsAction="never" />
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/menu_refresh"
         android:icon="@drawable/ic_menu_refresh"
