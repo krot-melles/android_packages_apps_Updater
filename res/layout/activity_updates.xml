@@ -58,12 +58,7 @@
                     android:layout_below="@id/header_maintainer"					
                     android:textColor="?android:attr/textColorPrimary"
                     android:textSize="12sp" />
-					
-				<View
-                    android:layout_width="fill_parent"
-                    android:layout_height="1dp"
-                    android:background="?android:attr/colorAccent" />
-					
+										
                 <TextView
                     android:id="@+id/header_build_version"
                     android:layout_width="wrap_content"
